@@ -1,0 +1,36 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+}
+.home-textinput1 {
+  margin-bottom: 4px;
+}
+.home-button {
+  padding-right: 975px;
+}
+.home-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: center;
+}
